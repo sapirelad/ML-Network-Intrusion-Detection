@@ -109,6 +109,9 @@ This demonstrates a real-world trade-off:
 - Graph-based and semi-supervised methods are promising but not sufficient alone.
 - Threshold calibration is crucial for deployment under distributional changes.
 - Evaluating IDS models across datasets is essential for realistic assessment.
+- The most important result of this project is the dramatic performance collapse under cross-dataset evaluation.
+  This demonstrates that IDS models trained on one dataset do not generalize well to different network environments, highlighting the importance of dataset diversity and realistic evaluation.
+
 
 ---
 
